@@ -317,10 +317,13 @@ header h1 {
 
 /* RESPONSIVE.......................................... */
 
-/* 440px................................ */
-@media (min-width: 440px) {
-
-  p{
+/* 375px................................ */
+@media (min-width: 375px) {
+  .title-icon{
+    height: 50px !important;
+  }
+  
+  p {
     text-align: justify;
   }
   /* Header............... */
@@ -329,14 +332,14 @@ header h1 {
   }
 
   header h1 {
-        margin-top: 150px;
+    margin-top: 134px;
     font-size: 2.2rem;
   }
 
   #logo {
-    height: 132px;
+    height: 120px;
     width: auto;
-    margin-top: 63px !important;
+    margin-top: 44px !important;
   }
 
   /* Info................. */
@@ -355,7 +358,7 @@ header h1 {
   #proyects h2,
   #aguacateOrganicProyect h2,
   #agaveOrganicProyect h2 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 
   .img-proyects-1,
@@ -364,14 +367,25 @@ header h1 {
   }
 
   .img-proyects-2 img,
-  .img-proyects-1 img {
-    height: 215px;
+  .img-proyects-1 img, .comercio-img img {
+    height: 150px;
     width: auto;
+
+  }
+  
+  #proyects h3{
+    color: #dda55d;
+    font-size: 1.5rem;
+    text-align: center;
   }
 
   /* Aguacate Hass Organico......... */
   #aguacateOrganicProyect h4 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+  }
+
+  #aguacateOrganicProyect h3{
+    font-size: 1.7rem;
   }
 
   /* Agave......................... */
@@ -379,11 +393,11 @@ header h1 {
     font-size: 25px;
   }
 
-/* Button Up........................ */
-.button-up-container{
-  bottom: 18px;
-  right: 0rem;
-}
+  /* Button Up........................ */
+  .button-up-container {
+    bottom: 18px;
+    right: 0rem;
+  }
 
   /* Footer......................... */
   .footer-icon img {
@@ -394,12 +408,56 @@ header h1 {
     font-size: 2rem;
   }
   .footer-icon span {
+    font-size: 1.3rem;
+  }
+}
+/* 440px................................ */
+@media (min-width: 440px) {
+  /* Header............... */
+  header h1 {
+    margin-top: 150px;
+  }
+
+  #logo {
+    height: 132px;
+    margin-top: 63px !important;
+  }
+
+  /* Proyects................. */
+  #proyects h2,
+  #aguacateOrganicProyect h2,
+  #agaveOrganicProyect h2 {
+    font-size: 1.8rem;
+  }
+
+  .img-proyects-2 img,
+  .img-proyects-1 img, .comercio-img img {
+    height: 200px;
+    width: auto;
+
+  }
+  /* Aguacate Hass Organico......... */
+  #aguacateOrganicProyect h4 {
+    font-size: 1.8rem;
+  }
+
+  /* Agave......................... */
+  #countdown {
+    font-size: 25px;
+  }
+
+  /* Footer......................... */
+  .footer-icon span {
     font-size: 1.5rem;
   }
 }
 
 /* 576px................................ */
 @media (min-width: 576px) {
+
+  .title-icon {
+    height: 80px !important;
+}
   /* Header............... */
   header h1 {
     margin-top: 135px;
@@ -460,10 +518,100 @@ header h1 {
     font-size: 35px;
   }
 
-.button-up-container{
-  bottom: 250px;
-  right: 2rem;
+  .button-up-container {
+    bottom: 250px;
+    right: 2rem;
+  }
+
+  /* Footer........................ */
+  .footer-icon img {
+    height: 60px;
+    width: auto;
+  }
+
+  .footer-icon strong {
+    font-size: 1.5rem;
+  }
+
+  .footer-icon span {
+    font-size: 1.1rem;
+  }
+
+  .follow-us img {
+    height: 43px;
+  }
 }
+
+/* 576px................................ */
+@media (min-width: 576px) {
+  /* Header............... */
+  header h1 {
+    margin-top: 135px;
+    font-size: 3rem;
+  }
+
+  /* Proyects........................... */
+  #proyects h2,
+  #aguacateOrganicProyect h2,
+  #agaveOrganicProyect h2 {
+    font-size: 2.3rem;
+  }
+}
+
+/* 768px................................ */
+@media (min-width: 768px) {
+  /* Header............... */
+  header {
+    min-height: 497px;
+  }
+
+  header h1 {
+    margin-top: 204px;
+    font-size: 4rem;
+  }
+
+  #logo {
+    height: 165px;
+    width: auto;
+    margin-top: 115px !important;
+  }
+
+  /* Info................. */
+
+  #info img {
+    max-width: 100%;
+  }
+
+  /* Proyects................. */
+  #proyects h2,
+  #aguacateOrganicProyect h2,
+  #agaveOrganicProyect h2 {
+    font-size: 3.2rem;
+  }
+
+  .img-proyects-2 img {
+    height: 300%;
+    width: auto;
+  }
+  #proyects h3{
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  /* Aguacate Organic Proyect...... */
+  #aguacateOrganicProyect h4 {
+    font-size: 2.5rem;
+  }
+
+  /* Agave........................... */
+  #countdown {
+    font-size: 35px;
+  }
+
+  .button-up-container {
+    bottom: 250px;
+    right: 2rem;
+  }
 
   /* Footer........................ */
   .footer-icon img {
