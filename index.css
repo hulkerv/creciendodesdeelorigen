@@ -150,14 +150,10 @@ header h1 {
 
 /* Aguacate Hass Proyect.......... */
 
-#aguacateOrganicProyect h3 {
-  font-size: 3rem;
-  color: #ade9b7;
-}
-
-.title-row {
-  border-bottom: solid 3px #ade9b7;
-}
+.herramienta-title{
+    color: #ade9b7;
+    
+  }
 
 #aguacateOrganicProyect h4 {
   font-size: 2.5rem;
@@ -323,6 +319,7 @@ header h1 {
   }
   
   p {
+    font-size: 1rem;
     text-align: justify;
   }
   /* Header............... */
@@ -364,6 +361,11 @@ header h1 {
     font-size: 1.6rem;
   }
 
+  .agronegocio-title{
+        color: #9b6224;
+        width: auto;
+  }
+
    #proyects h2{
     font-size: 2rem;
   }
@@ -390,11 +392,14 @@ header h1 {
   #aguacateOrganicProyect h4 {
     font-size: 1.5rem;
   }
+ .objetivo-title h3{
+   color: #007bff;
+ }
 
-  #aguacateOrganicProyect h3{
-    font-size: 1.7rem;
-  }
-
+ #aguacateOrganicProyect span{
+   font-size: 1.1rem;
+    color: #6d6df1;
+ }
   /* Agave......................... */
   #countdown {
     font-size: 25px;
@@ -444,6 +449,10 @@ header h1 {
 
   }
   /* Aguacate Hass Organico......... */
+  #aguacateOrganicProyect h3{
+    font-size: 1.7rem;
+  }
+
   #aguacateOrganicProyect h4 {
     font-size: 1.8rem;
   }
@@ -462,6 +471,9 @@ header h1 {
 /* 576px................................ */
 @media (min-width: 576px) {
 
+  #aguacateOrganicProyect h3{
+    font-size: 2.2rem;
+  }
   .title-icon {
     height: 80px !important;
 }
@@ -479,94 +491,12 @@ header h1 {
   }
 }
 
-/* 768px................................ */
-@media (min-width: 768px) {
-  /* Header............... */
-  header {
-    min-height: 497px;
-  }
-
-  header h1 {
-    margin-top: 204px;
-    font-size: 4rem;
-  }
-
-  #logo {
-    height: 165px;
-    width: auto;
-    margin-top: 115px !important;
-  }
-
-  /* Info................. */
-
-  #info img {
-    max-width: 100%;
-  }
-
-  /* Proyects................. */
-  #proyects h2,
-  #aguacateOrganicProyect h2,
-  #agaveOrganicProyect h2 {
-    font-size: 3.2rem;
-  }
-
-  .img-proyects-2 img {
-    height: 300%;
-    width: auto;
-  }
-
-  /* Aguacate Organic Proyect...... */
-  #aguacateOrganicProyect h4 {
-    font-size: 2.5rem;
-  }
-
-  /* Agave........................... */
-  #countdown {
-    font-size: 35px;
-  }
-
-  .button-up-container {
-    bottom: 250px;
-    right: 2rem;
-  }
-
-  /* Footer........................ */
-  .footer-icon img {
-    height: 60px;
-    width: auto;
-  }
-
-  .footer-icon strong {
-    font-size: 1.5rem;
-  }
-
-  .footer-icon span {
-    font-size: 1.1rem;
-  }
-
-  .follow-us img {
-    height: 43px;
-  }
-}
-
-/* 576px................................ */
-@media (min-width: 576px) {
-  /* Header............... */
-  header h1 {
-    margin-top: 135px;
-    font-size: 3rem;
-  }
-
-  /* Proyects........................... */
-  #proyects h2,
-  #aguacateOrganicProyect h2,
-  #agaveOrganicProyect h2 {
-    font-size: 2.3rem;
-  }
-}
 
 /* 768px................................ */
 @media (min-width: 768px) {
+  p, li{
+    font-size: 1.2rem;
+  }
   /* Header............... */
   header {
     min-height: 497px;
@@ -613,6 +543,10 @@ header h1 {
   #aguacateOrganicProyect h4 {
     font-size: 2.5rem;
   }
+
+  #aguacateOrganicProyect span{
+   font-size: 1.3rem;
+ }
 
   /* Agave........................... */
   #countdown {
@@ -665,11 +599,11 @@ header h1 {
   }
 
   /* Proyects...................... */
-  #proyects h2,
-  #aguacateOrganicProyect h2,
-  #agaveOrganicProyect h2 {
-    font-size: 4rem;
-  }
+
+/* Aguacate Organic Proyect */
+  #aguacateOrganicProyect span{
+   font-size: 1.7rem;
+ }
 
   /* Footer........................ */
   .follow-us img {
@@ -678,14 +612,13 @@ header h1 {
 }
 
 @media (min-width: 1200px) {
+   p, li{
+    font-size: 1.6rem;
+  }
   /* Info................. */
   #info {
     font-size: 1.7rem;
   }
-  /* Proyects............... */
-  #proyects h2,
-  #aguacateOrganicProyect h2,
-  #agaveOrganicProyect h2 {
-    font-size: 4.7rem;
-  }
+
 }
+

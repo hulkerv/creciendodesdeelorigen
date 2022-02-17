@@ -20,7 +20,7 @@ const countdown = (deadline, elem, finalMessage) => {
 
   const timerUpdate = setInterval(() => {
     let time = getRemainTime(deadline);
-    el.innerHTML = `Comenzamos en : </br> ${time.remainDays}d : ${time.remainHours}h : ${time.remainMinutes}m : ${time.remainSeconds}s`;
+    el.innerHTML = `Plantamos en : </br> ${time.remainDays}d : ${time.remainHours}h : ${time.remainMinutes}m : ${time.remainSeconds}s`;
 
     if (time.remainTime <= 1) {
       clearInterval(timerUpdate);
