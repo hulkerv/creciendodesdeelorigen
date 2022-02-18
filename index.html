@@ -1,304 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Creciendo desde el Origen</title>
-    <link rel="stylesheet" href="./index.css" />
-    <!--BOOTSTRAP CSS-->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <!-- NAVBAR........................................................................ -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img
-            src="./public/img/icons/logo.png"
-            alt="logo"
-            class="img-fluid align-self-start"
-          />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#proyects"> Agronegocios </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#aguacateOrganicProyect">
-                Aguacate Hass Orgánico
-              </a>
-            </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#agaveOrganicProyect">
-                Agave Espadín Orgánico
-              </a>
-            </li>
-          </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Creciendo desde el Origen</title>
+  <link rel="stylesheet" href="./index.css" />
+  <!--BOOTSTRAP CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+</head>
+
+<body>
+
+  <!-- Header........................................................................ -->
+  <header class="d-flex justify-content-center align-items-center" id="header">
+    <div class="d-flex justify-content-center" id="header-overlay">
+      <div class="container-fluid text-center">
+        <h1 class="-auto">Creciendo Desde el Origen</h1>
+        <img src="./public/img/icons/logo.png" alt="logo" id="logo" class="img-fluid mt-3" />
+      </div>
+    </div>
+  </header>
+
+  <!-- Info.......................................................................... -->
+  <section class="container-fluid pb-5" id="info">
+    <div class="info container">
+      <div class="row align-items-center justify-content-center mb-sm-4 mb-md-0">
+        <div class="col-md-6 col-sm-12">
+          <p>
+            Instalamos modelos de desarrollo social basados en AgroNegocios
+            sustentables para comunidades con necesidades sociales
+            específicas.
+          </p>
+        </div>
+        <div class="col-md-4 col-sm-12 d-flex justify-content-center img-info-1">
+          <img src="./public/img/pozo/info1.jpg" alt="info-1" />
         </div>
       </div>
-    </nav>
-
-    <!-- Header........................................................................ -->
-    <header
-      class="d-flex justify-content-center align-items-center"
-      id="header"
-    >
-      <div class="d-flex justify-content-center" id="header-overlay">
-        <div class="container-fluid text-center">
-          <h1 class="-auto">Creciendo Desde el Origen</h1>
-          <img
-            src="./public/img/icons/logo.png"
-            alt="logo"
-            id="logo"
-            class="img-fluid mt-3"
-          />
+      <div class="row align-items-center justify-content-center mb-sm-4 mb-md-0">
+        <div class="col-md-4 col-sm-12 d-md-block justify-content-center img-info-2-a">
+          <img src="./public/img/aguacate/info2.jpg" alt="info-2" class="" />
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <p class="">
+            Existen problemas sociales que nos obligan a ver más allá de solo
+            rendimientos económicos, nuestros AgroNegocios son inclusivos
+            entre empresa, comunidad y medio ambiente.
+          </p>
+        </div>
+        <div class="col-md-4 col-sm-12 d-md-none d-sm-flex img-info-2-b d-flex justify-content-center">
+          <img src="./public/img/aguacate/info2.jpg" alt="info-2" />
         </div>
       </div>
-    </header>
+    </div>
+  </section>
 
-    <!-- Info.......................................................................... -->
-    <section class="container-fluid pb-5" id="info">
-      <div class="info container">
-        <div
-          class="row align-items-center justify-content-center mb-sm-4 mb-md-0"
-        >
-          <div class="col-md-6 col-sm-12">
-            <p>
-              Instalamos modelos de desarrollo social basados en AgroNegocios
-              sustentables para comunidades con necesidades sociales
-              específicas.
-            </p>
-          </div>
-          <div
-            class="col-md-4 col-sm-12 d-flex justify-content-center img-info-1"
-          >
-            <img src="./public/img/pozo/info1.jpg" alt="info-1" />
+  <!-- PROYECTS...................................................................... -->
+  <section class="container-fluid p-0" id="proyects">
+    <div class="p-0 aguacate-proyect">
+      <div class="aguacate-overlay py-5 px-4">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12 d-flex justify-content-center agronecocios-title p-0">
+            <h2>Primer AgroNegocio</h2>
           </div>
         </div>
-        <div
-          class="row align-items-center justify-content-center mb-sm-4 mb-md-0"
-        >
-          <div
-            class="col-md-4 col-sm-12 d-md-block justify-content-center img-info-2-a"
-          >
-            <img src="./public/img/aguacate/info2.jpg" alt="info-2" class="" />
-          </div>
-          <div class="col-md-6 col-sm-12">
-            <p class="">
-              Existen problemas sociales que nos obligan a ver más allá de solo
-              rendimientos económicos, nuestros AgroNegocios son inclusivos
-              entre empresa, comunidad y medio ambiente.
-            </p>
-          </div>
-          <div
-            class="col-md-4 col-sm-12 d-md-none d-sm-flex img-info-2-b d-flex justify-content-center"
-          >
-            <img src="./public/img/aguacate/info2.jpg" alt="info-2" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- PROYECTS...................................................................... -->
-    <section class="container-fluid py-5" id="proyects">
-      <div class="container">
-        <div class="row mb-4 justify-content-center align-items-center">
-          <div class="col-8 d-flex justify-content-end agronecocios-title p-0">
-            <h2>AgroNegocios</h2>
-          </div>
-          <div class="col-4 p-0">
-            <img
-              src="./public/img/icons/agronomia.png"
-              alt="agronegocios"
-              class="title-icon"
-            />
+        <div class="row justify-content-center align-items-center pb-4">
+          <div class="col-12 d-flex justify-content-center p-0 text-center">
+            <h2>Aguacate Hass Orgánico</h2>
           </div>
         </div>
         <div class="row justify-content-center align-items-center">
           <div class="container">
-            <div class="row align-items-center justify-content-center mb-3">
-              <div
-                class="col-md-4 col-sm-12 d-sm-flex d-md-none justify-content-center img-proyects-1"
-              >
-                <img
-                  src="./public/img/icons/aguacate5.png"
-                  alt="aguacate-icon-proyect"
-                />
+            <div class="row justify-content-center mb-3">
+              <div class="col-md-4 col-sm-12 d-sm-flex d-md-none justify-content-center img-proyects-1">
+                <img src="./public/img/aguacate/aguacate5.png" alt="aguacate-icon-proyect" />
               </div>
               <div class="col-md-6 col-sm-12">
-                <h3>Aguacate Hass Orgánico</h3>
-                <p class="">
-                  En 2020 se instaló en 100,000 mt2, plantación de Aguacate Hass con prácticas orgánicas, que estima producirá 50,000 kg anuales con calidad exportación durante 45 años.
+                <p>
+                  En 2020 se instaló en 100,000 mt2, plantación de Aguacate Hass con prácticas orgánicas, que estima
+                  producirá 50,000 kg anuales con calidad exportación durante 45 años.
                   <br>
                   <br>
                   Estado de México
                 </p>
-                <div class="container mt-3 d-flex justify-content-start">
-                  <a href="#aguacateOrganicProyect" class="proyect-link">
-                    Ver mas...
-                  </a>
-                </div>
               </div>
               <div class="col-md-4 col-sm-12">
-                <div
-                  id="carouselExampleIndicators"
-                  class="carousel slide"
-                  data-bs-ride="carousel"
-                >
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                   <div class="carousel-indicators">
-                    <button
-                      type="button"
-                      data-bs-target="#carouselExampleIndicators"
-                      data-bs-slide-to="0"
-                      class="active"
-                      aria-current="true"
-                      aria-label="Slide 1"
-                    ></button>
-                    <button
-                      type="button"
-                      data-bs-target="#carouselExampleIndicators"
-                      data-bs-slide-to="1"
-                      aria-label="Slide 2"
-                    ></button>
-                    <button
-                      type="button"
-                      data-bs-target="#carouselExampleIndicators"
-                      data-bs-slide-to="2"
-                      aria-label="Slide 3"
-                    ></button>
-                    <button
-                      type="button"
-                      data-bs-target="#carouselExampleIndicators"
-                      data-bs-slide-to="3"
-                      aria-label="Slide 4"
-                    ></button>
-                    <button
-                      type="button"
-                      data-bs-target="#carouselExampleIndicators"
-                      data-bs-slide-to="4"
-                      aria-label="Slide 5"
-                    ></button>
-                    <button
-                      type="button"
-                      data-bs-target="#carouselExampleIndicators"
-                      data-bs-slide-to="5"
-                      aria-label="Slide 6"
-                    ></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                      class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                      aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                      aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                      aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                      aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                      aria-label="Slide 6"></button>
                   </div>
                   <div class="carousel-inner aguacate-gallery">
                     <div class="carousel-item active">
-                      <img
-                        src="./public/img/aguacate/background.jpg"
-                        class="d-block w-100"
-                        alt="..."
-                      />
+                      <img src="./public/img/aguacate/background.jpg" class="d-block w-100" alt="..." />
                     </div>
                     <div class="carousel-item">
-                      <img
-                        src="./public/img/aguacate/aguacate1.jpg"
-                        class="d-block w-100"
-                        alt="..."
-                      />
+                      <img src="./public/img/aguacate/aguacate1.jpg" class="d-block w-100" alt="..." />
                     </div>
                     <div class="carousel-item">
-                      <img
-                        src="./public/img/aguacate/aguacate2.jpg"
-                        class="d-block w-100"
-                        alt="..."
-                      />
+                      <img src="./public/img/aguacate/aguacate2.jpg" class="d-block w-100" alt="..." />
                     </div>
                     <div class="carousel-item">
-                      <img
-                        src="./public/img/aguacate/aguacate3.jpg"
-                        class="d-block w-100"
-                        alt="..."
-                      />
+                      <img src="./public/img/aguacate/aguacate3.jpg" class="d-block w-100" alt="..." />
                     </div>
                     <div class="carousel-item">
-                      <img
-                        src="./public/img/aguacate/aguacate4.jpg"
-                        class="d-block w-100"
-                        alt="..."
-                      />
+                      <img src="./public/img/aguacate/aguacate4.jpg" class="d-block w-100" alt="..." />
                     </div>
                     <div class="carousel-item">
-                      <img
-                        src="./public/img/aguacate/info2.jpg"
-                        class="d-block w-100"
-                        alt="..."
-                      />
+                      <img src="./public/img/aguacate/info2.jpg" class="d-block w-100" alt="..." />
                     </div>
                   </div>
-                  <button
-                    class="carousel-control-prev"
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="prev"
-                  >
-                    <span
-                      class="carousel-control-prev-icon"
-                      aria-hidden="true"
-                    ></span>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                   </button>
-                  <button
-                    class="carousel-control-next"
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="next"
-                  >
-                    <span
-                      class="carousel-control-next-icon"
-                      aria-hidden="true"
-                    ></span>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                   </button>
                 </div>
-              </div>
-            </div>
-            <hr class="my-5" />
-            <div class="row align-items-center justify-content-center">
-              <div
-                class="col-md-4 col-sm-12 d-flex justify-content-center img-proyects-2"
-              >
-                <img
-                  src="./public/img/icons/agave2.png"
-                  alt="agave-icon-proyect"
-                  class="img-fluid"
-                />
-              </div>
-              <div class="col-md-6 col-sm-12">
-                <h3>Agave Espadín Orgánico</h3>
-                <p class="">
-                  Nuestro modelo 2022 está basado en producción de Agave
-                  Espadín, materia prima para elaborar mezcal con 24,000 mil
-                  plantas en 100,000 mt2 con un clico de vida de 5 años.
-                  <br>
-                  <br>
-                  Estado de Oaxaca
-                </p>
-                <div class="container">
-                  <a href="#agaveOrganicProyect" class="proyect-link">
-                    Ver mas...
+                <div class="container d-flex justify-content-center align-items-center mt-5">
+                  <a href="#aguacateOrganicProyect" class="proyect-link px-4 py-2">
+                    Saber Mas
                   </a>
                 </div>
               </div>
@@ -306,709 +143,488 @@
           </div>
         </div>
       </div>
-    </section>
-
-    <!-- AGUACATE HASS ORGANICO ........................................................-->
-    <section class="container-fluid py-5" id="aguacateOrganicProyect">
-      <div class="container">
-        <div class="row text-center agronegocio-title">
-           <h2>AgroNegocio</h2>
-        </div>
-        <div class="row mb-4 justify-content-center align-items-center">
-          <div class="col-10 col-lg-8 d-flex justify-content-end p-0">
-            <h2>Aguacate Hass Orgánico</h2>
-          </div>
-          <div class="col-2 d-flex p-0 m-0">
-            <img
-              src="./public/img/icons/aguacate.png"
-              alt="aguacate-icon-hass"
-              class="title-icon"
-            />
-          </div>
-        </div>
-
-        <!-- UBICACION................................................ -->
-        <div class="container">
-          <div class="row align-items-center mb-5">
-            <div class="col-md-8 col-sm-12">
-              <p>
-                El modelo se instaló en la comunidad Plan de Guadalupe, ubicada en las coordenadas, latitud 185728 y longitud -993140 que alberga 1,133 habitantes, su principal actividad económica está basada en la agricultura.
-              </p>
+    </div>
+    <div class="agave-proyect p-0">
+      <div class="agave-overlay px-4 py-5">
+        <div class="row align-items-center justify-content-center pb-4">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-12 d-flex justify-content-center agronecocios-title p-0">
+              <h2>Segundo AgroNegocio</h2>
             </div>
-            <div class="col-md-4 col-sm-12 map">
-              <div class="mapouter">
-                <div class="gmap_canvas">
-                  <iframe
-                    class="gmap_iframe"
-                    width="100%"
-                    frameborder="0"
-                    scrolling="no"
-                    marginheight="0"
-                    marginwidth="0"
-                    src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=plan de guadalupe mexico&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-                    title="iframe"
-                  ></iframe>
-                  <a href="https://kokagames.com/">Koka Games</a>
+          </div>
+          <div class="row justify-content-center align-items-center pb-4">
+            <div class="col-12 d-flex justify-content-center p-0 text-center">
+              <h2>Agave Espadín Orgánico</h2>
+            </div>
+          </div>
+          <div class="row justify-content-center align-items-center">
+            <div class="container">
+              <div class="row alig-items-center justify-content-center mb-3">
+                <div class="col-md-4 col-sm-12 d-sm-flex d-md-none justify-content-center img-proyects-1">
+                  <img src="./public/img/agave/agave5.png" alt="aguacate-icon-proyect" />
+                </div>
+                <div class="col-md-6 col-sm-12">
+                  <p>
+                    Nuestro modelo 2022 está basado en producción de Agave
+                    Espadín, materia prima para elaborar mezcal con 24,000 mil
+                    plantas en 100,000 mt2 con un clico de vida de 5 años.
+                    <br>
+                    <br>
+                    Estado de Oaxaca
+                  </p>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                  <div id="carouselExampleIndicators5" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner aguacate-gallery">
+                      <div class="carousel-item active">
+                        <img src="./public/img/agave/agave1.jpg" class="d-block w-100" alt="..." />
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./public/img/agave/agave2.jpg" class="d-block w-100" alt="..." />
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./public/img/agave/agave3.jpg" class="d-block w-100" alt="..." />
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./public/img/agave/agave4.jpg" class="d-block w-100" alt="..." />
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators5"
+                      data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators5"
+                      data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                  <div class="container d-flex justify-content-center align-items-center mt-5">
+                    <a href="#agaveOrganicProyect" class="proyect-link px-4 py-2">
+                      Saber Mas
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <!-- OBJETIVO SOCIAL................................................ -->
-        <div class="container">
-          <div class="row align-items-center mb-2 objetivo-title">
-            <h3>Objetivo Social</h3>
-          </div>
-          <div class="row align-items-center">
-            <div class="col-md-8">
-              <p>
-                Erradicar pobreza y rezago educativo mediante 4 herramientas:
-              </p>
-            </div>
-          </div>
-        </div>
-
-          <!-- ESCUELA....................................................  -->
-          <div class="container">
-              <div class="row mb-4 justify-content-center align-items-center ">
-                 <h3>Primera herramienta:</h3>
-              <div class="col-8 col-md-6 col-lg-4 p-0 herramienta-title">
-                <h3> Escuela Comunitaria</h3>
-              </div>
-              <div class="col-3 p-0">
-                <img
-                  src="./public/img/icons/colegio.png"
-                  alt="escuela-icon"
-                  class="title-icon"
-                />
-              </div>
-            </div>
-            <div class="row justify-content-around align-items-center mb-5">
-              <div class="col-md-8 col-sm-12 mr-4">
-                <p>
-                  Creación, establecimiento y continuidad formal de una escuela comunitaria de 3 niveles educativos
-                  con un total de 47 alumnos, con Claves de Centro de Trabajo siguientes:
-                </p>
-                <ul>
-                  <li>Preescolar CCT: 15KJN1504Q</li>
-                  <li>Primaria CCT: 15KPRO7620</li>
-                  <li>Secundaria CCT: 15KTV0249</li>
-                </ul>
-                <p>
-                  Aportamos los recursos necesarios que va desde infraestructura hasta becas para garantizar el acceso a la educación sin excepciones a toda la población, año con año.  
-                </p>
-              </div>
-              <div class="col-md-4 col-sm-12">
-                <div
-                  id="carouselExampleIndicators2"
-                  class="carousel slide"
-                  data-bs-ride="carousel"
-                >
-                  <div class="carousel-indicators">
-                    <button
-                      type="button"
-                      data-bs-target="#carouselExampleIndicators2"
-                      data-bs-slide-to="0"
-                      class="active"
-                      aria-current="true"
-                      aria-label="Slide 1"
-                    ></button>
-                    <button
-                      type="button"
-                      data-bs-target="#carouselExampleIndicators2"
-                      data-bs-slide-to="1"
-                      aria-label="Slide 2"
-                    ></button>
-                    <button
-                      type="button"
-                      data-bs-target="#carouselExampleIndicators2"
-                      data-bs-slide-to="2"
-                      aria-label="Slide 3"
-                    ></button>
-                  </div>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img
-                        src="./public/img/escuela/escuela1.jpg"
-                        class="d-block w-100"
-                        alt="..."
-                      />
-                    </div>
-                    <div class="carousel-item">
-                      <img
-                        src="./public/img/escuela/escuela2.jpg"
-                        class="d-block w-100"
-                        alt="..."
-                      />
-                    </div>
-                    <div class="carousel-item">
-                      <img
-                        src="./public/img/escuela/escuela3.jpg"
-                        class="d-block w-100"
-                        alt="..."
-                      />
-                    </div>
-                  </div>
-                  <button
-                    class="carousel-control-prev"
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators2"
-                    data-bs-slide="prev"
-                  >
-                    <span
-                      class="carousel-control-prev-icon"
-                      aria-hidden="true"
-                    ></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button
-                    class="carousel-control-next"
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators2"
-                    data-bs-slide="next"
-                  >
-                    <span
-                      class="carousel-control-next-icon"
-                      aria-hidden="true"
-                    ></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <hr class="my-5" />
-
-          <!-- POZO........................................................ -->
-          <div class="container">
-            <div class="row mb-4 justify-content-center align-items-center">
-              <h3>Segunda herramienta:</h3>
-              <div class="col-6 col-md-5 p-0 herramienta-title text-end">
-                <h3>Pozo Profundo</h3>
-              </div>
-              <div class="col-3 p-0">
-                <img
-                  src="./public/img/icons/excavador.png"
-                  alt="excavadora-icon"
-                  class="title-icon"
-                />
-              </div>
-            </div>
-            <div class="row justify-content-around align-items-center mb-5">
-              <div class="col-md-8 col-sm-12">
-                <p>
-                  La comunidad carece de agua potable, una necesidad de atención inmediata que decidimos atacar con la creación de un pozo profundo en 3 etapas con una inversión de 1.5 MDP
-                </p>
-                <ul>
-                  <li>1ra Etapa Completada 2020 - <strong>Perforar Pozo Profundo</strong> </li>
-                  <li>2da Etapa Completada 2021 - <strong>Red Hidráulica</strong> </li>
-                  <li>3er Etapa En Proceso…  – <strong>3er Etapa En Proceso…  – </strong></li>
-                </ul>
-              </div>
-              <div class="col-md-4 col-sm-12">
-                <div
-                  id="carouselExampleIndicators3"
-                  class="carousel slide"
-                  data-bs-ride="carousel"
-                >
-                  <div class="carousel-indicators">
-                    <button
-                      type="button"
-                      data-bs-target="#carouselExampleIndicators3"
-                      data-bs-slide-to="0"
-                      class="active"
-                      aria-current="true"
-                      aria-label="Slide 1"
-                    ></button>
-                    <button
-                      type="button"
-                      data-bs-target="#carouselExampleIndicators3"
-                      data-bs-slide-to="1"
-                      aria-label="Slide 2"
-                    ></button>
-                    <button
-                      type="button"
-                      data-bs-target="#carouselExampleIndicators3"
-                      data-bs-slide-to="2"
-                      aria-label="Slide 3"
-                    ></button>
-                    <button
-                      type="button"
-                      data-bs-target="#carouselExampleIndicators3"
-                      data-bs-slide-to="3"
-                      aria-label="Slide 4"
-                    ></button
-                    ><button
-                      type="button"
-                      data-bs-target="#carouselExampleIndicators3"
-                      data-bs-slide-to="4"
-                      aria-label="Slide 5"
-                    ></button
-                    ><button
-                      type="button"
-                      data-bs-target="#carouselExampleIndicators3"
-                      data-bs-slide-to="5"
-                      aria-label="Slide 6"
-                    ></button>
-                  </div>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img
-                        src="./public/img/pozo/pozo1.jpg"
-                        class="d-block w-100"
-                        alt="..."
-                      />
-                    </div>
-                    <div class="carousel-item">
-                      <img
-                        src="./public/img/pozo/pozo2.jpg"
-                        class="d-block w-100"
-                        alt="..."
-                      />
-                    </div>
-                    <div class="carousel-item">
-                      <img
-                        src="./public/img/pozo/pozo3.jpg"
-                        class="d-block w-100"
-                        alt="..."
-                      />
-                    </div>
-                    <div class="carousel-item">
-                      <img
-                        src="./public/img/pozo/pozo4.jpg"
-                        class="d-block w-100"
-                        alt="..."
-                      />
-                    </div>
-                    <div class="carousel-item">
-                      <img
-                        src="./public/img/pozo/pozo5.jpg"
-                        class="d-block w-100"
-                        alt="..."
-                      />
-                    </div>
-                    <div class="carousel-item">
-                      <img
-                        src="./public/img/pozo/pozo6.jpg"
-                        class="d-block w-100"
-                        alt="..."
-                      />
-                    </div>
-                  </div>
-                  <button
-                    class="carousel-control-prev"
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators3"
-                    data-bs-slide="prev"
-                  >
-                    <span
-                      class="carousel-control-prev-icon"
-                      aria-hidden="true"
-                    ></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button
-                    class="carousel-control-next"
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators3"
-                    data-bs-slide="next"
-                  >
-                    <span
-                      class="carousel-control-next-icon"
-                      aria-hidden="true"
-                    ></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <hr class="my-5" />
-
-          <!-- CAPACITACION.................................................  -->
-          <div class="container">
-            <div class="row mb-4 justify-content-center align-items-center">
-              <h3>Tercera herramienta: </h3>
-              <div class="col-9 col-md-7 col-lg-5 p-0 herramienta-title text-end">
-                <h3>Capacitación Orgánica</h3>
-              </div>
-              <div class="col-3 p-0">
-                <img
-                  src="./public/img/icons/capacitacion.png"
-                  alt="capacitacion-icon"
-                  class="title-icon"
-                />
-              </div>
-            </div>
-            <div class="row justify-content-center align-items-center mb-5">
-              <div class="col-md-6 col-sm-12">
-                <p>
-                  Organizamos brigadas y cursos gratuitos a los agricultores de la comunidad para que cambien sus cultivos de prácticas químicas a orgánicas para proteger el medio ambiente y su producto sea mejor pagado
-                </p>
-              </div>
-              <div class="col-md-5 col-sm-12">
-                <div
-                  id="carouselExampleIndicators4"
-                  class="carousel slide"
-                  data-bs-ride="carousel"
-                >
-                  <div class="carousel-indicators">
-                    <button
-                      type="button"
-                      data-bs-target="#carouselExampleIndicators4"
-                      data-bs-slide-to="0"
-                      class="active"
-                      aria-current="true"
-                      aria-label="Slide 1"
-                    ></button>
-                    <button
-                      type="button"
-                      data-bs-target="#carouselExampleIndicators4"
-                      data-bs-slide-to="1"
-                      aria-label="Slide 2"
-                    ></button>
-                    <button
-                      type="button"
-                      data-bs-target="#carouselExampleIndicators4"
-                      data-bs-slide-to="2"
-                      aria-label="Slide 3"
-                    ></button>
-                    <button
-                      type="button"
-                      data-bs-target="#carouselExampleIndicators4"
-                      data-bs-slide-to="3"
-                      aria-label="Slide 4"
-                    ></button
-                    ><button
-                      type="button"
-                      data-bs-target="#carouselExampleIndicators4"
-                      data-bs-slide-to="4"
-                      aria-label="Slide 5"
-                    ></button
-                    ><button
-                      type="button"
-                      data-bs-target="#carouselExampleIndicators4"
-                      data-bs-slide-to="5"
-                      aria-label="Slide 6"
-                    ></button
-                    ><button
-                      type="button"
-                      data-bs-target="#carouselExampleIndicators4"
-                      data-bs-slide-to="6"
-                      aria-label="Slide 7"
-                    ></button
-                    ><button
-                      type="button"
-                      data-bs-target="#carouselExampleIndicators4"
-                      data-bs-slide-to="7"
-                      aria-label="Slide 8"
-                    ></button
-                    ><button
-                      type="button"
-                      data-bs-target="#carouselExampleIndicators4"
-                      data-bs-slide-to="8"
-                      aria-label="Slide 9"
-                    ></button
-                    ><button
-                      type="button"
-                      data-bs-target="#carouselExampleIndicators4"
-                      data-bs-slide-to="9"
-                      aria-label="Slide 10"
-                    ></button
-                    ><button
-                      type="button"
-                      data-bs-target="#carouselExampleIndicators4"
-                      data-bs-slide-to="10"
-                      aria-label="Slide 11"
-                    ></button>
-                  </div>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img
-                        src="./public/img/capacitacion/capacitacion1.jpg"
-                        class="d-block w-100"
-                        alt="..."
-                      />
-                    </div>
-                    <div class="carousel-item">
-                      <img
-                        src="./public/img/capacitacion/capacitacion2.jpg"
-                        class="d-block w-100"
-                        alt="..."
-                      />
-                    </div>
-                    <div class="carousel-item">
-                      <img
-                        src="./public/img/capacitacion/capacitacion3.jpg"
-                        class="d-block w-100"
-                        alt="..."
-                      />
-                    </div>
-                    <div class="carousel-item">
-                      <img
-                        src="./public/img/capacitacion/capacitacion4.jpg"
-                        class="d-block w-100"
-                        alt="..."
-                      />
-                    </div>
-                    <div class="carousel-item">
-                      <img
-                        src="./public/img/capacitacion/capacitacion5.jpg"
-                        class="d-block w-100"
-                        alt="..."
-                      />
-                    </div>
-                    <div class="carousel-item">
-                      <img
-                        src="./public/img/capacitacion/capacitacion6.jpg"
-                        class="d-block w-100"
-                        alt="..."
-                      />
-                    </div>
-                    <div class="carousel-item">
-                      <img
-                        src="./public/img/capacitacion/capacitacion7.jpg"
-                        class="d-block w-100"
-                        alt="..."
-                      />
-                    </div>
-                    <div class="carousel-item">
-                      <img
-                        src="./public/img/capacitacion/capacitacion8.jpg"
-                        class="d-block w-100"
-                        alt="..."
-                      />
-                    </div>
-                    <div class="carousel-item">
-                      <img
-                        src="./public/img/capacitacion/capacitacion9.jpg"
-                        class="d-block w-100"
-                        alt="..."
-                      />
-                    </div>
-                    <div class="carousel-item">
-                      <img
-                        src="./public/img/capacitacion/capacitacion10.jpg"
-                        class="d-block w-100"
-                        alt="..."
-                      />
-                    </div>
-                    <div class="carousel-item">
-                      <img
-                        src="./public/img/capacitacion/capacitacion11.jpg"
-                        class="d-block w-100"
-                        alt="..."
-                      />
-                    </div>
-                  </div>
-                  <button
-                    class="carousel-control-prev"
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators4"
-                    data-bs-slide="prev"
-                  >
-                    <span
-                      class="carousel-control-prev-icon"
-                      aria-hidden="true"
-                    ></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button
-                    class="carousel-control-next"
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators4"
-                    data-bs-slide="next"
-                  >
-                    <span
-                      class="carousel-control-next-icon"
-                      aria-hidden="true"
-                    ></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <hr class="my-5" />
-
-          <!-- COMERCIO.....................................................  -->
-          <div class="container">
-            <div class="row mb-4 justify-content-center align-items-center">
-              <h3>Cuarta herramienta: </h3>
-              <div class="col-6 col-md-5 text-end p-0 herramienta-title">
-                <h3>Comercio Justo</h3>
-              </div>
-              <div class="col-3">
-                <img
-                  src="./public/img/icons/comercio2.png"
-                  alt="comercio-icon-2"
-                  class="title-icon"
-                />
-              </div>
-            </div>
-            <div class="row justify-content-around align-items-center">
-              <div class="col-md-8 col-sm-12 mb-4">
-                <p>
-                  Grupo fruBmex en 2022 crea HOLI General Training LLC con sede en Dubái, Emiratos Arabes para armar un canal de distribución que nos permita a todos los agricultores de la comunidad vender nuestro aguacate de forma directa, eliminando a los intermediarios.
-                  <br>
-                  <br>
-                  Si restamos la comisión de los intermediarios y sumamos un mejor precio de venta en el extranjero, cumpliremos el objetivo de nuestro modelo de desarrollo social.
-                </p>
-                <span class="comercio-span"><strong> Erradicar Pobreza y Rezago Educativo</strong></span>
-              </div>
-              <div
-                class="col-md-3 col-sm-12 comercio-img d-flex justify-content-center"
-              >
-                <img
-                  src="./public/img/icons/comercio.png"
-                  alt="comercio-icon"
-                  class="img-fluid"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-</div>
-
-    </section>
-
-    <!-- AGAVE ESPADIN ORGANICO ....................................-->
-    <section class="container-fluid py-5" id="agaveOrganicProyect">
-      <div class="container">
-        <div class="row text-center agronegocio-title">
-          <h2>AgroNegocio</h2>
-        </div>
-        <div class="row mb-4 justify-content-center align-items-center">
-          <div class="col-10 col-lg-8 d-flex justify-content-end p-0">
-            <h2>Agave Espadín Orgánico</h2>
-          </div>
-          <div class="col-2 d-flex p-0 m-0">
-            <img
-              src="./public/img/icons/agave.png"
-              alt="aguacate-icon-hass"
-              class="title-icon"
-            />
-          </div>
-        </div>
-        <div class="row align-items-start justify-content-center mb-5">
-          <div class="col-md-8 col-sm-12 mr-4">
-            <p>
-              Este modelo no es a largo plazo, es cíclico en etapas de 5 años y se instala en la comunidad de Texas de Morelos, Ocotlán, Oaxaca donde en teoría la principal actividad económica esta basada en la agricultura, pero debido al cambio climático y la falta de oportunidades el 90% de su población emigro en busca de mejores oportunidades principalmente a los Estados Unidos. 
-            </p>
-          </div>
-          <div class="col-md-3 col-sm-12 map d-flex align-items-center">
-            <div class="mapouter2">
-              <div class="gmap_canvas2">
-                <iframe
-                  class="gmap_iframe2"
-                  frameborder="0"
-                  scrolling="no"
-                  marginheight="0"
-                  marginwidth="0"
-                  src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=texas de morelos&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-                  title="Texas de Morelos"
-                ></iframe>
-                <a href="https://kokagames.com/">FNF</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row justify-content-center mt-5">
-          <img src="./public/img/icons/calendario.png" alt="calendario-icon" />
-        </div>
-        <div class="container d-flex justify-content-center">
-          <div
-            class="row justify-content-center align-items-center text-center"
-            id="countdown"
-          >
-            <span id="clock"></span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- BUTTON UP..................................................................... -->
-    <div class="button-up-container">
-      <div class="button-up">
-        <span>^</span>
       </div>
     </div>
+  </section>
 
-    <!-- FOOTER........................................................................ -->
-    <footer>
-      <div class="container-fluid pt-5">
-        <div
-          class="row justify-content-between align-items-start pb-5 footer-row"
-        >
-          <div class="col-md-4 col-sm-12 align-self-center footer-icon p-sm-0">
-            <div
-              class="container-fluid p-0 px-sm-5 d-flex align-items-center pb-5"
-            >
-              <img src="./public/img/icons/logo.png" alt="logo" />
-              <span>
-                <strong>C</strong>reciendo <strong>D</strong>esde el
-                <strong>O</strong>rigen
-              </span>
-            </div>
-          </div>
-          <div
-            class="container-fluid col-md-4 col-sm-12 about-us px-sm-5 pb-5 p-md-0"
-          >
-            <h3>Sobre Nosotros</h3>
-            <p>
-              Estamos en la busqueda de erradicar la pobreza y la falta de
-              educación mediante el desarrollo de proyectos inclusivos entre
-              empresa, comunidad y medioambiente.
-            </p>
-          </div>
-          <div class="col-md-4 col-sm-12 container px-sm-5 follow-us">
-            <h3>Siguenos</h3>
-            <div class="row mt-3 d-flex justify-content-center">
-              <div class="col-3">
-                <a href="/" class="d-flex justify-content-center">
-                  <img
-                    src="./public/img/icons/facebook.png"
-                    alt="facebook-icon"
-                  />
-                </a>
-              </div>
-              <div class="col-3">
-                <a href="/" class="d-flex justify-content-center">
-                  <img
-                    src="./public/img/icons/instagram.png"
-                    alt="instagram-icom"
-                  />
-                </a>
-              </div>
-              <div class="col-3">
-                <a href="/" class="d-flex justify-content-center">
-                  <img
-                    src="./public/img/icons/twitter.png"
-                    alt="twitter-icon"
-                  />
-                </a>
-              </div>
-            </div>
-          </div>
+  <!-- AGUACATE HASS ORGANICO ........................................................-->
+  <section class="container-fluid py-5" id="aguacateOrganicProyect">
+    <div class="container">
+      <div class="row text-center agronegocio-title">
+        <h2>AgroNegocio</h2>
+      </div>
+      <div class="row mb-4 justify-content-center align-items-center">
+        <div class="col-10 col-lg-8 d-flex justify-content-end p-0">
+          <h2>Aguacate Hass Orgánico</h2>
         </div>
-        <div
-          class="row align-items-center justify-content-center footer-botton text-center"
-        >
-          <span>
-            © 2022 Creciendo Desde El Inicio - Todos los derechos Reservados.
-          </span>
+        <div class="col-2 d-flex p-0 m-0">
+          <img src="./public/img/icons/aguacate.png" alt="aguacate-icon-hass" class="title-icon" />
         </div>
       </div>
-    </footer>
-    <!--BOOTSTRAP JS SCRIPT..........................................-->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-    <!-- COUNDOWN SCRIPT............................................ -->
-    <script src="./scripts/countdown.js"></script>
-    <script src="./scripts/up-button.js"></script>
-  </body>
+      <div class="container">
+        <div class="row align-items-center mb-5">
+          <div class="col-md-8 col-sm-12">
+            <p>
+              El modelo se instaló en la comunidad Plan de Guadalupe, ubicada en las coordenadas, latitud 185728 y
+              longitud -993140 que alberga 1,133 habitantes, su principal actividad económica está basada en la
+              agricultura.
+            </p>
+            <div class="objetivo-title">
+              <h3>Objetivo Social</h3>
+            </div>
+            <p>
+              Erradicar pobreza y rezago educativo mediante 4 herramientas:
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-12 map">
+            <div class="mapouter">
+              <div class="gmap_canvas">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.4701415125946!2d-99.52929978530454!3d18.95483328715758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc49bff33e88abb6d!2zMTjCsDU3JzE3LjQiTiA5OcKwMzEnMzcuNiJX!5e0!3m2!1ses!2sve!4v1645200879264!5m2!1ses!2sve"
+                  width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <a href="https://kokagames.com/">Koka Games</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ESCUELA....................................................  -->
+      <div class="container">
+        <div class="row mb-4 justify-content-center align-items-center ">
+          <h3>Primera herramienta:</h3>
+          <div class="col-8 col-md-6 col-lg-4 p-0 herramienta-title">
+            <h3> Escuela Comunitaria</h3>
+          </div>
+          <div class="col-3 p-0">
+            <img src="./public/img/icons/colegio.png" alt="escuela-icon" class="title-icon" />
+          </div>
+        </div>
+        <div class="row justify-content-around align-items-center mb-5">
+          <div class="col-md-8 col-sm-12 mr-4">
+            <p>
+              Creación, establecimiento y continuidad formal de una escuela comunitaria de 3 niveles educativos
+              con un total de 47 alumnos, con Claves de Centro de Trabajo siguientes:
+            </p>
+            <ul>
+              <li>Preescolar CCT: 15KJN1504Q</li>
+              <li>Primaria CCT: 15KPRO7620</li>
+              <li>Secundaria CCT: 15KTV0249</li>
+            </ul>
+            <p>
+              Aportamos los recursos necesarios que va desde infraestructura hasta becas para garantizar el acceso a la
+              educación sin excepciones a toda la población, año con año.
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./public/img/escuela/escuela1.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./public/img/escuela/escuela2.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./public/img/escuela/escuela3.jpg" class="d-block w-100" alt="..." />
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="my-5" />
+
+      <!-- POZO........................................................ -->
+      <div class="container">
+        <div class="row mb-4 justify-content-center align-items-center">
+          <h3>Segunda herramienta:</h3>
+          <div class="col-6 col-md-5 p-0 herramienta-title text-end">
+            <h3>Pozo Profundo</h3>
+          </div>
+          <div class="col-3 p-0">
+            <img src="./public/img/icons/excavador.png" alt="excavadora-icon" class="title-icon" />
+          </div>
+        </div>
+        <div class="row justify-content-around align-items-center mb-5">
+          <div class="col-md-8 col-sm-12">
+            <p>
+              La comunidad carece de agua potable, una necesidad de atención inmediata que decidimos atacar con la
+              creación de un pozo profundo en 3 etapas con una inversión de 1.5 MDP
+            </p>
+            <ul>
+              <li>1ra Etapa Completada 2020 - <strong>Perforar Pozo Profundo</strong> </li>
+              <li>2da Etapa Completada 2021 - <strong>Red Hidráulica</strong> </li>
+              <li>3er Etapa En Proceso… – <strong>3er Etapa En Proceso… – </strong></li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <div id="carouselExampleIndicators3" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="3"
+                  aria-label="Slide 4"></button><button type="button" data-bs-target="#carouselExampleIndicators3"
+                  data-bs-slide-to="4" aria-label="Slide 5"></button><button type="button"
+                  data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./public/img/pozo/pozo1.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./public/img/pozo/pozo2.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./public/img/pozo/pozo3.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./public/img/pozo/pozo4.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./public/img/pozo/pozo5.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./public/img/pozo/pozo6.jpg" class="d-block w-100" alt="..." />
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="my-5" />
+
+      <!-- CAPACITACION.................................................  -->
+      <div class="container">
+        <div class="row mb-4 justify-content-center align-items-center">
+          <h3>Tercera herramienta: </h3>
+          <div class="col-9 col-md-7 col-lg-5 p-0 herramienta-title text-end">
+            <h3>Capacitación Orgánica</h3>
+          </div>
+          <div class="col-3 p-0">
+            <img src="./public/img/icons/capacitacion.png" alt="capacitacion-icon" class="title-icon" />
+          </div>
+        </div>
+        <div class="row justify-content-center align-items-center mb-5">
+          <div class="col-md-6 col-sm-12">
+            <p>
+              Organizamos brigadas y cursos gratuitos a los agricultores de la comunidad para que cambien sus cultivos
+              de prácticas químicas a orgánicas para proteger el medio ambiente y su producto sea mejor pagado
+            </p>
+          </div>
+          <div class="col-md-5 col-sm-12">
+            <div id="carouselExampleIndicators4" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="3"
+                  aria-label="Slide 4"></button><button type="button" data-bs-target="#carouselExampleIndicators4"
+                  data-bs-slide-to="4" aria-label="Slide 5"></button><button type="button"
+                  data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="5"
+                  aria-label="Slide 6"></button><button type="button" data-bs-target="#carouselExampleIndicators4"
+                  data-bs-slide-to="6" aria-label="Slide 7"></button><button type="button"
+                  data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="7"
+                  aria-label="Slide 8"></button><button type="button" data-bs-target="#carouselExampleIndicators4"
+                  data-bs-slide-to="8" aria-label="Slide 9"></button><button type="button"
+                  data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="9"
+                  aria-label="Slide 10"></button><button type="button" data-bs-target="#carouselExampleIndicators4"
+                  data-bs-slide-to="10" aria-label="Slide 11"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./public/img/capacitacion/capacitacion1.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./public/img/capacitacion/capacitacion2.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./public/img/capacitacion/capacitacion3.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./public/img/capacitacion/capacitacion4.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./public/img/capacitacion/capacitacion5.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./public/img/capacitacion/capacitacion6.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./public/img/capacitacion/capacitacion7.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./public/img/capacitacion/capacitacion8.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./public/img/capacitacion/capacitacion9.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./public/img/capacitacion/capacitacion10.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./public/img/capacitacion/capacitacion11.jpg" class="d-block w-100" alt="..." />
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators4"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators4"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="my-5" />
+
+      <!-- COMERCIO.....................................................  -->
+      <div class="container">
+        <div class="row mb-4 justify-content-center align-items-center">
+          <h3>Cuarta herramienta: </h3>
+          <div class="col-6 col-md-5 text-end p-0 herramienta-title">
+            <h3>Comercio Justo</h3>
+          </div>
+          <div class="col-3">
+            <img src="./public/img/icons/comercio2.png" alt="comercio-icon-2" class="title-icon" />
+          </div>
+        </div>
+        <div class="row justify-content-around align-items-center">
+          <div class="col-md-8 col-sm-12 mb-4">
+            <p>
+              Grupo fruBmex en 2022 crea HOLI General Training LLC con sede en Dubái, Emiratos Arabes para armar un
+              canal de distribución que nos permita a todos los agricultores de la comunidad vender nuestro aguacate de
+              forma directa, eliminando a los intermediarios.
+              <br>
+              <br>
+              Si restamos la comisión de los intermediarios y sumamos un mejor precio de venta en el extranjero,
+              cumpliremos el objetivo de nuestro modelo de desarrollo social.
+            </p>
+            <span class="comercio-span"><strong> Erradicar Pobreza y Rezago Educativo</strong></span>
+          </div>
+          <div class="col-md-3 col-sm-12 comercio-img d-flex justify-content-center">
+            <img src="./public/img/icons/comercio.png" alt="comercio-icon" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+
+  </section>
+
+  <!-- AGAVE ESPADIN ORGANICO ....................................-->
+  <section class="container-fluid py-5" id="agaveOrganicProyect">
+    <div class="container">
+      <div class="row text-center agronegocio-title">
+        <h2>AgroNegocio</h2>
+      </div>
+      <div class="row mb-4 justify-content-center align-items-center">
+        <div class="col-10 col-lg-8 d-flex justify-content-end p-0">
+          <h2>Agave Espadín Orgánico</h2>
+        </div>
+        <div class="col-2 d-flex p-0 m-0">
+          <img src="./public/img/icons/agave.png" alt="aguacate-icon-hass" class="title-icon" />
+        </div>
+      </div>
+      <div class="row align-items-start justify-content-center mb-5">
+        <div class="col-md-8 col-sm-12 mr-4">
+          <p>
+            Este modelo no es a largo plazo, es cíclico en etapas de 5 años y se instala en la comunidad de Texas de
+            Morelos, Ocotlán, Oaxaca donde en teoría la principal actividad económica esta basada en la agricultura,
+            pero debido al cambio climático y la falta de oportunidades el 90% de su población emigro en busca de
+            mejores oportunidades principalmente a los Estados Unidos.
+          </p>
+        </div>
+        <div class="col-md-3 col-sm-12 map d-flex align-items-center">
+          <div class="mapouter2">
+            <div class="gmap_canvas2">
+              <iframe class="gmap_iframe2" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=texas de morelos&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                title="Texas de Morelos"></iframe>
+              <a href="https://kokagames.com/">FNF</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-5">
+        <img src="./public/img/icons/calendario.png" alt="calendario-icon" />
+      </div>
+      <div class="container d-flex justify-content-center">
+        <div class="row justify-content-center align-items-center text-center" id="countdown">
+          <span id="clock"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BUTTON UP..................................................................... -->
+  <div class="button-up-container">
+    <div class="button-up">
+      <span>^</span>
+    </div>
+  </div>
+
+  <!-- FOOTER........................................................................ -->
+  <footer>
+    <div class="container-fluid pt-5">
+      <div class="row justify-content-center  align-items-center pb-5 footer-row">
+        <div class="col-md-5 col-sm-8 col-lg-4 align-self-center footer-icon pb-5 px-0">
+          <div class="container-fluid p-0  d-flex justify-content-center align-items-center">
+            <img src="./public/img/icons/logo.png" alt="logo" />
+            <span>
+              <strong>C</strong>reciendo <strong>D</strong>esde el
+              <strong>O</strong>rigen
+            </span>
+          </div>
+        </div>
+        <div class="container-fluid col-md-4 col-lg-6 col-sm-8 about-us">
+          <p>
+            Estamos en la busqueda de erradicar la pobreza y la falta de
+            educación mediante el desarrollo de proyectos inclusivos entre
+            empresa, comunidad y medioambiente.
+          </p>
+        </div>
+        <div class="col-md-2 col-sm-8 container follow-us">
+          <div class="row mt-3 d-flex justify-content-center">
+            <div class="col-3">
+              <a href="/" class="d-flex justify-content-center">
+                <img src="./public/img/icons/facebook.png" alt="facebook-icon" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center justify-content-center footer-botton text-center">
+        <span>
+          © 2022 Todos los derechos Reservados.
+        </span>
+      </div>
+    </div>
+  </footer>
+  <!--BOOTSTRAP JS SCRIPT..........................................-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <!-- COUNDOWN SCRIPT............................................ -->
+  <script src="./scripts/countdown.js"></script>
+  <script src="./scripts/up-button.js"></script>
+</body>
+
 </html>
