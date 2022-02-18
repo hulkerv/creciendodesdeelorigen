@@ -199,7 +199,7 @@ header h1 {
 
 video{
   box-shadow: 6px 6px 5px #454242;
-  width: 100%;
+  width: 250px;
 }
 
 /* Agave Organic Proyect ........... */
@@ -380,7 +380,7 @@ video{
     font-size: 1.6rem;
   }
 
-  #aguacateOrganicProyect span {
+  .comercio-span {
     font-size: 1.1rem;
     color: white;
     background-color: red;
