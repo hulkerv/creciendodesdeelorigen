@@ -73,6 +73,7 @@ header h1 {
 
 #header-overlay {
   position: absolute;
+  background: rgb(22, 22, 26, 0.5);
 }
 
 #logo {
